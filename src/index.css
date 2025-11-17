@@ -1,0 +1,59 @@
+/* Global Styles to prevent white flash */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #000000;
+}
+
+/* Smooth transitions for route changes */
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms ease-out;
+}
+
+/* Header scroll styles */
+.header-scrolled {
+  background-color: #000000 !important;
+}
+
+.header-transparent {
+  background-color: transparent !important;
+}
+
+.MuiAppBar-root.header-scrolled {
+  background-color: #000000 !important;
+}
+
+.MuiAppBar-root.header-transparent {
+  background-color: transparent !important;
+}
+
