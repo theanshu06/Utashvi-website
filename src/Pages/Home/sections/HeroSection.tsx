@@ -7,34 +7,35 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 // Easy to modify: Add or change slides here (matching Kestone Global style)
 const slides = [
   {
-    smallHeading: "That's Who We Are",
-    mainHeading: "B2B Marketing Agency",
-    buttonText: "Explore Our Work",
-    buttonLink: "/projects",
+    smallHeading: "This Is What We Stand For",
+    mainHeading: "Transforming B2B Potential Into Real Growth",
+    buttonText: "View Our Portfolio",
+    buttonLink: "/",
     backgroundImage: "/image/Marketing-Build.png",
   },
   {
-    smallHeading: "Think Events. Deliver Experiences.",
-    mainHeading: "Experiential Marketing",
-    buttonText: "Explore Our Work",
-    buttonLink: "/projects",
+    smallHeading: "Ideas That Connect. Moments That Matter.",
+    mainHeading: "Event Experiences That Inspire",
+    buttonText: "See Our Work",
+    buttonLink: "/",
     backgroundImage: "/image/Experimential-Marketing.png",
   },
   {
-    smallHeading: "Drive Sales. Grow Business.",
-    mainHeading: "Lead Generation",
-    buttonText: "Explore Our Work",
-    buttonLink: "/projects",
+    smallHeading: "Engage Better. Convert Faster.",
+    mainHeading: "Performance-Driven Lead Acquisition",
+    buttonText: "Discover More",
+    buttonLink: "/",
     backgroundImage: "/image/Lead-Genration.png",
   },
   {
-    smallHeading: "Build Brand. Start Trending",
-    mainHeading: "Content Marketing",
-    buttonText: "Explore Our Work",
-    buttonLink: "/projects",
+    smallHeading: "Create Stories. Build Influence.",
+    mainHeading: "Strategic Content That Drives Visibility",
+    buttonText: "Explore Projects",
+    buttonLink: "/",
     backgroundImage: "/image/Colorful.png",
   },
 ];
+
 
 export default function HeroSection() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -145,6 +146,7 @@ export default function HeroSection() {
               <Button
                 component={RouterLink}
                 to={slide.buttonLink}
+                
                 variant="outlined"
                 sx={{
                   fontFamily: "Montserrat, sans-serif",

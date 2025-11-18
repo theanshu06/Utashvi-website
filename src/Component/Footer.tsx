@@ -210,8 +210,8 @@ export default function Footer() {
                     textAlign: { xs: "center", sm: "left", md: "left" }
                   }}>
                     {[
-                      { label: "Projects", to: "/projects" },
-                      { label: "Our Team", to: "/team" },
+                      { label: "Projects", to: "/" },
+                      { label: "Our Team", to: "/ourteam" },
                       { label: "Contact", to: "/contact#contact-form" }
                     ].map((link) => (
                       <Link
@@ -284,7 +284,7 @@ export default function Footer() {
                   lineHeight: { xs: 1.6, sm: 1.5 },
                   wordBreak: "break-word"
                 }}>
-                  keenray.energies@gmail.com
+                  theanshu415@gmail.com
                 </Typography>
                 <Typography sx={{ 
                   fontSize: { xs: "12.5px", sm: "13px", md: "13.5px" },

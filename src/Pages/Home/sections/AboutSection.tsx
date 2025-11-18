@@ -71,7 +71,7 @@ export default function AboutSection() {
                   color: "#ff214f",
                 }}
               >
-                In: Project Brief. Out: Human Experiences
+                From: Business Requirements. To: Memorable Connections
               </Typography>
               <Typography
                 variant="h5"
@@ -81,7 +81,7 @@ export default function AboutSection() {
                   color: "#1d1d1f",
                 }}
               >
-                We are Good at Marketing & Better at Integrated Marketing
+                We Excel in Marketing & Specialize in Holistic Marketing Solutions
               </Typography>
               <Typography
                 variant="body1"
@@ -91,7 +91,7 @@ export default function AboutSection() {
                   lineHeight: 1.6,
                 }}
               >
-                Established in 1997, we're a 28 years old B2B marketing agency. We are a bunch of storytellers, technologists, and relentlessly curious minds. We are creative designers, techno-marketers and growth hackers who are religious about creating experiences and delivering results through B2B marketing.
+                Founded in 2021, we've been serving as a B2B marketing agency for over 4 years. Our team consists of narrative creators, tech innovators, and endlessly inquisitive professionals. We are visual artists, digital marketing specialists, and performance experts who are dedicated to crafting meaningful interactions and achieving measurable outcomes in B2B marketing.
               </Typography>
             </Box>
 
@@ -132,7 +132,7 @@ export default function AboutSection() {
               <Box sx={{ p: 2 }}>
                 <Typography variant="h6" sx={{ fontSize: "16px", fontWeight: 600, color: "#1d1d1f" }}>Our Strength</Typography>
                 <Typography variant="body2" sx={{ fontSize: "12px", color: "#666" }}>
-                Deliver the most knitted marketing solutions which can help our clients sell more.
+                We provide comprehensive marketing strategies that enable our clients to increase sales and expand their market presence.
                 </Typography>
               </Box>
             </Box>
@@ -165,7 +165,7 @@ export default function AboutSection() {
               <Box sx={{ p: 2 }}>
                 <Typography variant="h6" sx={{ fontSize: "16px", fontWeight: 600, color: "#1d1d1f" }}>Our Purpose</Typography>
                 <Typography variant="body2" sx={{ fontSize: "12px", color: "#666" }}>
-                Our curiosity with creatives is as deep as our passion for programming.
+                Our enthusiasm for creative design matches our dedication to technical excellence and innovation.
                 </Typography>
               </Box>
             </Box>

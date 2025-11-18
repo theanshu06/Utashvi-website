@@ -51,7 +51,7 @@ export default function TeamSection() {
               maxWidth: "900px",
             }}
           >
-            We are big enough to manage scale & small enough to understand the care you need
+            We have the capacity to handle large projects & the flexibility to provide personalized attention
           </Typography>
 
           {/* Description */}
@@ -66,7 +66,7 @@ export default function TeamSection() {
               lineHeight: 1.8,
             }}
           >
-            You may be an established enterprise with defined processes for almost everything or a self-funded start-up looking to create a niche for itself, we are here for you to make things work.
+            Whether you're a well-established corporation with comprehensive systems in place or a bootstrapped startup aiming to establish your unique position in the market, we're committed to helping you achieve your goals.
           </Typography>
 
           {/* CTA Button */}

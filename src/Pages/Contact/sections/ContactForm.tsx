@@ -86,7 +86,7 @@ export default function ContactSection() {
           >
             <Box
               component="img"
-              src="/image/Marketing-Build.png"
+              src="/image/contact-page-image2.png"
               alt="Contact"
               sx={{
                 width: "100%",
@@ -153,7 +153,7 @@ export default function ContactSection() {
               </Typography>
               <Typography
                 component={RouterLink}
-                to="/contact/work-with-us"
+                to="/contact/"
                 sx={{
                   fontFamily: "'DM Sans', 'Poppins', sans-serif",
                   fontSize: "16px",
@@ -373,16 +373,16 @@ export default function ContactSection() {
                   },
                 }}
               >
-                <InputLabel>Interested In</InputLabel>
+                <InputLabel id="interested-in-label">Interested In</InputLabel>
                 <Select
                   name="interestedIn"
-                  label="Interested In"
+                  labelId="interested-in-label"
                   value={formData.interestedIn}
                   onChange={handleChange}
-                  displayEmpty
+                  label="Interested In"
                 >
                   <MenuItem value="" disabled>
-                    Please Select
+                    <em>Please Select</em>
                   </MenuItem>
                   <MenuItem value="b2b-marketing">B2B Marketing</MenuItem>
                   <MenuItem value="experiential-marketing">Experiential Marketing</MenuItem>
@@ -424,7 +424,7 @@ export default function ContactSection() {
                   }
                 />
 
-                <FormControlLabel
+                {/* <FormControlLabel
                   control={
                     <Checkbox
                       name="agreeTerms"
@@ -451,7 +451,7 @@ export default function ContactSection() {
                       I agree to Kestone's Terms of Service and Privacy Policy.
                     </Typography>
                   }
-                />
+                /> */}
 
                 <Button
                   type="submit"

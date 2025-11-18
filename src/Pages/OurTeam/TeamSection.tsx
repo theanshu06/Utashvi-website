@@ -4,26 +4,35 @@ import { motion } from "framer-motion";
 
 const founders = [
   {
-    name: "MR. PARESH SINGHALA",
+    name: "MR. Utpal Vatsa",
     role: "CHAIRMAN & MD",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies, magna ut vulputate dictum, nunc sem finibus eros, sit amet mattis neque justo in elit. Nullam vitae bibendum tortor. Curabitur vulputate, sem et ultrices sagittis, lorem ligula eleifend urna, ut tincidunt eros ante vel felis. Mauris tincidunt, lorem sed maximus sodales, orci justo pharetra metus, a malesuada libero sem at erat. Donec vel dui nec tortor dictum iaculis. Integer lacinia neque vel magna vehicula, vel varius purus malesuada. Suspendisse id justo in ex convallis mattis ac vel erat. Etiam porttitor tortor sit amet mauris porta, in efficitur erat convallis. Aliquam faucibus arcu ac sapien consequat, in facilisis lectus elementum. Vivamus suscipit arcu eu mauris egestas, sit amet accumsan leo bibendum. Cras convallis erat id mauris feugiat, nec luctus est dictum. Sed cursus est vel ex gravida, a rutrum nibh sodales. Nulla ac sapien lacus. Donec a convallis purus, in vehicula ante.",
-    descriptionMobile: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet risus ac lectus varius, in aliquam tortor dignissim. Vestibulum quis mauris nec nisl sodales faucibus. Integer condimentum lorem id lorem varius, ac aliquam neque feugiat. Aliquam erat volutpat. Morbi facilisis quam ac diam blandit, vel commodo ligula maximus. Sed gravida ligula at massa ultrices, ac cursus mi rhoncus.",
-    image: "/images/TeamSection-image.jpg"
-  },
-  {
-    name: "MR. MANISH SHINGALA",
-    role: "DIRECTOR",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Suspendisse blandit ante vel elit pharetra, at elementum felis aliquam. Sed dignissim, sapien in blandit dictum, ligula eros lobortis nisi, ut feugiat lacus lorem a nulla. Donec dapibus, neque vel maximus dapibus, turpis ante feugiat turpis, nec sodales urna lectus et sem. Proin fermentum sapien a sem interdum laoreet. Fusce aliquet, metus vel lacinia ornare, lorem mi tincidunt nisl, eu rutrum arcu mi ac justo. Mauris ac sagittis nisl. Sed a tortor sit amet magna dictum sagittis. Donec venenatis orci ut ex ultrices cursus. Nulla facilisi. Integer tempus leo non justo cursus posuere. Aenean dignissim libero vitae mauris tincidunt, a bibendum lacus blandit. Proin eget ante eget orci convallis commodo et sed velit.",
-    descriptionMobile: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus felis et elit suscipit, at rhoncus mauris tincidunt. Proin blandit felis vel nulla malesuada, nec suscipit purus fermentum. Morbi ut dignissim nunc, vel tincidunt diam. Suspendisse potenti. Phasellus rhoncus nunc vel velit gravida, sit amet dictum nisl condimentum.",
-    image: "/images/TeamSection-image.jpg"
-  },
-  {
-    name: "MR. NITIN BARVALIYA",
-    role: "VICE PRESIDENT",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat magna nec tincidunt congue. Phasellus quis nulla id mauris dapibus ullamcorper. Cras sodales lacus ut justo efficitur, ut facilisis leo pulvinar. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris porttitor, velit nec posuere dictum, lorem nibh sodales nibh, nec malesuada risus magna nec purus. Nulla vitae dui in arcu bibendum feugiat sit amet nec arcu. Ut suscipit lectus eu sapien tempor, id porttitor leo laoreet. Suspendisse potenti. Mauris id tellus vitae ligula sodales laoreet. Aliquam imperdiet risus in arcu ultricies, a tempor felis aliquam. Nam ut dictum sapien. In tincidunt, nulla non tempor dapibus, justo enim aliquet arcu, sed fringilla nisi lorem et sapien.",
-    descriptionMobile: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit eros at leo viverra, at vulputate sapien commodo. Nullam aliquam risus sit amet mattis aliquam. In eu arcu ut enim fermentum elementum. Vestibulum gravida lacus in sem feugiat, non pulvinar lectus rhoncus. Sed non nunc vel erat tincidunt vehicula. Duis in sapien nec purus ultrices placerat.",
+    description: "An engineer by qualification and an entrepreneur by passion, Mr. Utpal Vatsa has been serving people and businesses for over a decade through counselling, consulting, and strategic digital solutions. With hands-on experience across government supply, supply chain operations, water treatment, and real estate, he brings deep multi-industry understanding and practical insight. In 2021, he founded Utsavi Marketing with a mission to empower brands in the digital era. Since then, he has helped numerous companies strengthen their digital presence, streamline operations, and expand their market reach. His philosophy is simple: you have the fuel — he helps you refine direction and accelerate business growth. Known for his problem-solving mindset and commitment to innovation, he continues to inspire teams and clients alike with his vision for sustainable, technology-driven business transformation.",
+    descriptionMobile: "An engineer turned entrepreneur, Mr. Utpal Vatsa brings over 10 years of experience in counselling, consulting, and digital business solutions. With a strong background across government supply, supply chain, water treatment, and real estate, he carries broad industry expertise. After founding Utsavi Marketing in 2021, he has supported many businesses in enhancing their digital presence and expanding their market reach. Driven by a passion for innovation and practical execution, he focuses on helping brands grow with clarity, strategy, and long-term vision. His belief remains simple: you bring the energy, and he converts it into meaningful business growth.",  
     image: "/images/TeamSection-image.jpg"
   }
+  
+   ,  
+   {
+    name: "MR. Anand Kumar",
+    role: "CO-FOUNDER & BUSINESS STRATEGIST",
+    description: "With a strong academic foundation in business — a BBA followed by an MBA — Mr. Anand Kumar brings structured thinking and strategic clarity to every project he leads. He has over 5 years of hands-on experience in business excellence, client management, and operational planning. Known for his ability to analyse businesses deeply and provide practical, growth-focused insights, he has worked with multiple clients across diverse industries. His early experience with LIC strengthened his understanding of customer behaviour, risk management, and service-driven operations. Over the years, he has helped several brands optimise processes, identify opportunities, and streamline their business direction. His approach is simple: understand the business, solve real problems, and drive sustainable growth with clarity and precision.",
+    
+    descriptionMobile: "Mr. Anand Kumar, a BBA and MBA graduate, brings over 5 years of experience in business excellence and client strategy. He has worked with diverse clients across different domains, including valuable experience at LIC. Known for his analytical mindset and ability to offer clear, actionable business insights, he helps brands improve operations, discover opportunities, and grow sustainably. His focus is always on understanding the business first and delivering solutions that create long-term impact.",
+    
+    image: "/image/Anand-image.jpeg"
+  }
+  ,
+  {
+    name: "MR. Sumit Kumar",
+    role: "VICE PRESIDENT",
+    description: "Mr. Sumit Kumar is an accomplished IT Support and Computer Technician with over 5 years of professional expertise in system maintenance, hardware diagnostics, software installation, and network configuration. Throughout his career, he has played a key role in ensuring seamless technical operations for clients and organizations by resolving complex issues with precision and speed. His strong analytical skills, deep understanding of computer systems, and commitment to delivering reliable support make him a trusted technology partner for businesses. With a passion for continuous learning, he stays updated with emerging technologies, cybersecurity practices, and modern infrastructure trends. Dedicated, detail-oriented, and problem-solving by nature, he aims to contribute effectively in dynamic technical environments while consistently enhancing operational efficiency.",
+    
+    descriptionMobile: "Sumit Kumar is an IT professional with 5+ years of experience in hardware, networking, troubleshooting, and system maintenance. He specializes in resolving issues quickly and keeping systems running smoothly. Passionate about new technologies and cybersecurity, he continues to grow his skills while delivering dependable technical support.",
+    
+    image: "/images/TeamSection-image.jpg"
+  }
+  
+  
   
 ];
 

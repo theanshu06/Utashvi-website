@@ -64,7 +64,7 @@ export default function TestimonialSection() {
                 component="span"
                 sx={{
                   position: "absolute",
-                  top: { xs: "-20px", sm: "-30px", md: "-40px", lg: "-45px" },
+                  top: { xs: "-20px", sm: "-30px", md: "-20px", lg: "-45px" },
                   left: "50%",
                   transform: "translateX(-50%)",
                   fontFamily: "'DM Sans', 'Poppins', sans-serif",
@@ -82,14 +82,14 @@ export default function TestimonialSection() {
                 sx={{
                   fontFamily: "'DM Sans', 'Poppins', sans-serif",
                   fontSize: { xs: "16px", sm: "20px", md: "24px", lg: "28px" },
-                  fontWeight: 700,
+                  fontWeight: 400,
                   color: "#ffffff",
                   lineHeight: 1.3,
                   position: "relative",
                   zIndex: 2,
                 }}
               >
-                Awesome B2B Marketing Agency. Flawless Project Delivery.
+                Exceptional B2B Marketing Partner. Seamless Execution Every Time.
               </Typography>
             </Box>
           </Box>
@@ -134,7 +134,7 @@ export default function TestimonialSection() {
                 lineHeight: 1.2,
               }}
             >
-              Testimony to Our Business Excellence
+              Evidence of Our Professional Excellence
             </Typography>
 
             {/* Subheading */}
@@ -148,7 +148,7 @@ export default function TestimonialSection() {
                 lineHeight: 1.5,
               }}
             >
-              We are humbled when some of the biggest global brands trust us with their marketing campaigns
+              We are honored that leading international corporations choose us to manage their marketing initiatives
             </Typography>
 
             {/* Description Text */}
@@ -161,7 +161,7 @@ export default function TestimonialSection() {
                 lineHeight: 1.8,
               }}
             >
-              Mobile app marketing for an EdTech brand, Virtual Event for a pharma company, Audience Generation for a consumer durable brand, Inside Sales Program for an OEM, brand re-launch for an FMCG company; there have been numerous such stories built over 27 years, across geographies, which keep us inspired.
+              Educational technology platform promotions, pharmaceutical industry virtual conferences, consumer goods audience development, manufacturing sector sales enablement programs, fast-moving consumer goods brand revitalization; we've created countless success narratives throughout our 27-year journey, spanning multiple regions, that continue to motivate our team.
             </Typography>
 
             {/* CTA Button */}
@@ -190,7 +190,7 @@ export default function TestimonialSection() {
                 transition: "all 0.3s ease",
               }}
             >
-              Look at Our Clients
+              View Our Portfolio
             </Button>
           </Box>
         </Box>
