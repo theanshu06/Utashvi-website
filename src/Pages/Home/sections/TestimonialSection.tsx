@@ -35,7 +35,7 @@ export default function TestimonialSection() {
             <Box
               component="img"
               src="/image/Marketing-Build.png"
-              alt="Testimonial"
+              alt="Utashvi Marketing Agency - Client Testimonials and Success Stories"
               sx={{
                 width: "100%",
                 height: "100%",
@@ -125,6 +125,7 @@ export default function TestimonialSection() {
 
             {/* Main Heading */}
             <Typography
+              component="h2"
               variant="h3"
               sx={{
                 fontFamily: "'DM Sans', 'Poppins', sans-serif",

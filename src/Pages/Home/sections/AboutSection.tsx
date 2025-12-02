@@ -34,7 +34,7 @@ export default function AboutSection() {
             <Box
               component="img"
               src="/image/Girl-Painting4.png"
-              alt="About Us"
+              alt="Utashvi B2B Marketing Agency - Integrated Marketing Solutions Team"
               sx={{
                 width: "100%",
                 height: "100%",
@@ -64,6 +64,7 @@ export default function AboutSection() {
               }}
             >
               <Typography
+                component="h3"
                 variant="h6"
                 sx={{
                   fontSize: { xs: "12px", sm: "14px", md: "16px" },
@@ -74,6 +75,7 @@ export default function AboutSection() {
                 From: Business Requirements. To: Memorable Connections
               </Typography>
               <Typography
+                component="h2"
                 variant="h5"
                 sx={{
                   fontSize: { xs: "20px", sm: "24px", md: "28px" },
@@ -91,7 +93,7 @@ export default function AboutSection() {
                   lineHeight: 1.6,
                 }}
               >
-                Founded in 2021, we've been serving as a B2B marketing agency for over 4 years. Our team consists of narrative creators, tech innovators, and endlessly inquisitive professionals. We are visual artists, digital marketing specialists, and performance experts who are dedicated to crafting meaningful interactions and achieving measurable outcomes in B2B marketing.
+                At Utashvi, we combine creativity with technology to help B2B companies boost visibility, strengthen brand authority, and achieve sustainable growth.  Utashvi, founded in 2021, has been delivering high-impact B2B marketing solutions for over four years. As a leading B2B marketing agency, we specialize in helping brands grow through strategic storytelling, data-driven performance, and cutting-edge digital marketing.
               </Typography>
             </Box>
 

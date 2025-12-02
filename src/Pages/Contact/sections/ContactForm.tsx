@@ -86,7 +86,7 @@ export default function ContactSection() {
           >
             <Box
               component="img"
-              src="/image/contact-page-image2.png"
+              src="/image/contact-page-image4.png"
               alt="Contact"
               sx={{
                 width: "100%",

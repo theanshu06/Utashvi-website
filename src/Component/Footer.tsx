@@ -8,7 +8,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
 
 // Tip: If you have a dedicated footer image in public/images, replace the path below.
-const FOOTER_BG_IMAGE = "/images/solar-house.jpeg"; // e.g. "/images/solar-footer.jpeg"
+const FOOTER_BG_IMAGE = "/images/Black-bg-footer.png"; // e.g. "/images/solar-footer.jpeg"
 
 export default function Footer() {
   return (
@@ -22,6 +22,8 @@ export default function Footer() {
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
+        marginTop: 0,
+        paddingTop: 0,
       }}
     >
       {/* Subtle animated sheen overlay */}

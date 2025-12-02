@@ -13,7 +13,6 @@ import {
   Menu,
   MenuItem,
   Collapse,
-  Divider,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
@@ -22,9 +21,8 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import GroupsOutlinedIcon from "@mui/icons-material/GroupsOutlined";
-import HomeWorkOutlinedIcon from "@mui/icons-material/HomeWorkOutlined";
-import BusinessOutlinedIcon from "@mui/icons-material/BusinessOutlined";
-import ApartmentOutlinedIcon from "@mui/icons-material/ApartmentOutlined";
+import ComputerOutlinedIcon from "@mui/icons-material/ComputerOutlined";
+import BusinessCenterOutlinedIcon from "@mui/icons-material/BusinessCenterOutlined";
 import { Link as RouterLink } from "react-router-dom";
 import LeadFormModal from "./LeadFormModal"; // ✅ Import the modal
 
@@ -46,7 +44,13 @@ const pages = [
   //   ],
   // },
   // { name: "Projects", path: "/projects" },
-  { name: "Services", path: "/services" },
+  {
+    name: "Services",
+    subPages: [
+      { name: "Digital Solution", path: "/services", icon: <ComputerOutlinedIcon /> },
+      { name: "Office Supply", path: "/office-supply", icon: <BusinessCenterOutlinedIcon /> },
+    ],
+  },
   { name: "Contact", path: "/contact" },
 ];
 
@@ -367,7 +371,7 @@ export default function Header() {
               onClick={() => setOpenDrawer((prev) => !prev)}
               sx={{
                 display: { xs: "flex", md: "none" },
-                color: isScrolled ? "#ffffff" : "#1d1d1f",
+                color: "#ffffff",
                 backgroundColor: isScrolled ? "rgba(255, 255, 255, 0.1)" : "rgba(0, 0, 0, 0.04)",
                 borderRadius: "10px",
                 p: 1,
@@ -386,7 +390,7 @@ export default function Header() {
         onClose={() => setOpenDrawer(false)}
         PaperProps={{
           sx: {
-            width: { xs: "40%", sm: "30%" },
+            width: { xs: "50%", sm: "30%" },
             backgroundColor: "#fff",
             borderLeft: "1px solid rgba(0,0,0,0.08)",
             p: 3,
@@ -461,33 +465,6 @@ export default function Header() {
               </ListItemButton>
             )
           )}
-
-          <Divider sx={{ my: 2 }} />
-
-              <Button
-                variant="contained"
-                endIcon={<ArrowForwardIcon />}
-                component={RouterLink}
-                to="/contact#contact-form"
-                onClick={() => setOpenDrawer(false)}
-                sx={{
-                  backgroundColor: "transparent",
-                  color: "#fff",
-                  fontWeight: 600,
-                  textTransform: "none",
-                  borderRadius: "400px",
-                  px: 3,
-                  py: 1.5,
-                  width: "100%",
-                  border: "2px solid",
-                  borderImage: "linear-gradient(135deg, #ff0080, #ff8c00, #ffd700, #32cd32, #00bfff, #0000ff, #8b00ff) 1",
-                  "&:hover": {
-                    backgroundColor: "rgba(255,255,255,0.1)",
-                  },
-                }}
-              >
-                Get Started
-              </Button>
         </List>
       </Drawer>
 

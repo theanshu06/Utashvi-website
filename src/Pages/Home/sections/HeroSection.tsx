@@ -110,6 +110,7 @@ export default function HeroSection() {
           >
             {/* Small Heading - matching Kestone style */}
             <Typography
+              component="h2"
               sx={{
                 fontFamily: "Montserrat, sans-serif",
                 fontSize: { xs: "16px", sm: "18px", md: "20px", lg: "22px" },
@@ -126,6 +127,7 @@ export default function HeroSection() {
 
             {/* Main Heading - large and bold */}
             <Typography
+              component="h1"
               variant="h1"
               sx={{
                 fontFamily: "Montserrat, sans-serif",

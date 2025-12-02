@@ -23,15 +23,25 @@ const founders = [
   }
   ,
   {
-    name: "MR. Sumit Kumar",
+    name: "MR. Sumit Ranjan",
     role: "VICE PRESIDENT",
-    description: "Mr. Sumit Kumar is an accomplished IT Support and Computer Technician with over 5 years of professional expertise in system maintenance, hardware diagnostics, software installation, and network configuration. Throughout his career, he has played a key role in ensuring seamless technical operations for clients and organizations by resolving complex issues with precision and speed. His strong analytical skills, deep understanding of computer systems, and commitment to delivering reliable support make him a trusted technology partner for businesses. With a passion for continuous learning, he stays updated with emerging technologies, cybersecurity practices, and modern infrastructure trends. Dedicated, detail-oriented, and problem-solving by nature, he aims to contribute effectively in dynamic technical environments while consistently enhancing operational efficiency.",
+    description: "Mr. Sumit Ranjan is an accomplished IT Support and Computer Technician with over 5 years of professional expertise in system maintenance, hardware diagnostics, software installation, and network configuration. Throughout his career, he has played a key role in ensuring seamless technical operations for clients and organizations by resolving complex issues with precision and speed. His strong analytical skills, deep understanding of computer systems, and commitment to delivering reliable support make him a trusted technology partner for businesses. With a passion for continuous learning, he stays updated with emerging technologies, cybersecurity practices, and modern infrastructure trends. Dedicated, detail-oriented, and problem-solving by nature, he aims to contribute effectively in dynamic technical environments while consistently enhancing operational efficiency.",
     
-    descriptionMobile: "Sumit Kumar is an IT professional with 5+ years of experience in hardware, networking, troubleshooting, and system maintenance. He specializes in resolving issues quickly and keeping systems running smoothly. Passionate about new technologies and cybersecurity, he continues to grow his skills while delivering dependable technical support.",
+    descriptionMobile: "Sumit Ranjan is an IT professional with 5+ years of experience in hardware, networking, troubleshooting, and system maintenance. He specializes in resolving issues quickly and keeping systems running smoothly. Passionate about new technologies and cybersecurity, he continues to grow his skills while delivering dependable technical support.",
     
-    image: "/images/TeamSection-image.jpg"
+    image: "/image/Mr.Sumit2.jpg"
+  },
+  {
+    name: "MR. Ranjeet Kumar",
+    role: "Motion Graphics Designer",
+    description: "Mr. Ranjeet Kumar is the creative and technical mastermind of the organization, bringing together exceptional expertise in Photoshop, graphic designing, photo editing, and digital visualization. With over 5 years of professional experience in IT support, system maintenance, hardware diagnostics, software installation, and network configuration, he delivers a rare blend of artistic vision and technical precision. Throughout his career, he has played a pivotal role in ensuring seamless digital operations, producing high-quality visuals, and resolving complex technical challenges with accuracy and speed. His dedication, continuous learning mindset, and deep understanding of modern technologies make him a driving force behind the company’s visual identity and operational excellence.",
+    
+    descriptionMobile: "Ranjeet Kumar is the creative and technical powerhouse of the team—expert in Photoshop, graphic designing, and visual editing, along with 5+ years of experience in IT support and troubleshooting. He blends creativity with technical skill to deliver high-quality visuals and smooth operations.",
+    
+    image: "/image/Mr.Ranjeet.jpg"
   }
-  
+
+ 
   
   
 ];
@@ -48,10 +58,11 @@ export default function TeamSection() {
       <Container maxWidth="lg" sx={{ px: { xs: 0, sm: 2, md: 4 } }}>
         {/* Team Members */}
         {founders.map((founder, index) => {
-          // Index 0 (Paresh): image left, text right
-          // Index 1 (Manish): image right, text left
-          // Index 2 (Nitin): image left, text right
-          const isManish = index === 1;
+          // Index 0: image left, text right
+          // Index 1: image right, text left
+          // Index 2: image left, text right
+          // Index 3 (Ranjeet): image right, text left (same layout as Anand)
+          const isRightAligned = index === 1 || index === 3;
           
           return (
             <Box
@@ -77,13 +88,13 @@ export default function TeamSection() {
                 <Grid
                   size={{ xs: 12, sm: 5, md: 5 }}
                   sx={{
-                    order: { xs: 1, sm: isManish ? 2 : 1 },
+                    order: { xs: 1, sm: isRightAligned ? 2 : 1 },
                     display: "flex",
                     alignItems: "stretch",
                   }}
                 >
                   <motion.div
-                    initial={{ opacity: 0, x: isManish ? 60 : -60 }}
+                    initial={{ opacity: 0, x: isRightAligned ? 60 : -60 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: false, amount: 0.3 }}
                     transition={{ duration: 1.0, ease: [0.25, 0.1, 0.25, 1] }}
@@ -144,7 +155,7 @@ export default function TeamSection() {
                 <Grid
                   size={{ xs: 12, sm: 7, md: 7 }}
                   sx={{
-                    order: { xs: 2, sm: isManish ? 1 : 2 },
+                    order: { xs: 2, sm: isRightAligned ? 1 : 2 },
                     display: "flex",
                     flexDirection: "column",
                     justifyContent: "center",

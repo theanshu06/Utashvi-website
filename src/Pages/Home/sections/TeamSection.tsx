@@ -40,6 +40,7 @@ export default function TeamSection() {
 
           {/* Subheading */}
           <Typography
+            component="h2"
             variant="h3"
             sx={{
               fontFamily: "'DM Sans', 'Poppins', sans-serif",
@@ -110,7 +111,7 @@ export default function TeamSection() {
             <Box
               component="img"
               src="/image/OurTeam.png"
-              alt="Our Team"
+              alt="Utashvi Marketing Agency Team - B2B Marketing Professionals"
               sx={{
                 width: "100%",
                 height: "auto",

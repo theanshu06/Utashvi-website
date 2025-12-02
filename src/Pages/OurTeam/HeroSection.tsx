@@ -101,7 +101,7 @@ export default function OurTeamHeroSection() {
               mb: { xs:0, sm: 4 },
               lineHeight: 1.6
             }}>
-              Meet the visionary leaders driving Keenray Solar's mission to power India with clean, sustainable solar energy.
+Meet the leaders behind Utashvi, dedicated to transforming businesses through cutting-edge digital strategies and technology solutions.
             </Typography>
           </motion.div>
 
